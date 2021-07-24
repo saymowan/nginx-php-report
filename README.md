@@ -2,7 +2,7 @@
 Docker image builder based on Nginx + Trafex + Celeron to easy view HTML Files.
 Use suggestions:
  - Include all your static HTML test report files to easy folks access 
-  - E.g. Mocha Awesome, Allure Report, ExtentReports
+   - E.g. Mocha Awesome, Allure Report, ExtentReports
  -  1 Click view reports (better than download them on CI tool as artifact 😁)
 
 ### Build the Docker image
