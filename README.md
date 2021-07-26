@@ -12,7 +12,7 @@ Use suggestions:
  - `docker run --rm --name nginx-php-report -p 80:8080 nginx-trafex-celeron` 
 
 ### Run a container image based including volume (files)
- - `docker run --rm --name nginx-php-report2 -p 80:8080 -v "$(pwd):/var/www/html" -w "/var/www/html/" nginx-trafex-celeron` 
+ - `docker run --rm --name nginx-php-report -p 80:8080 -v "$(pwd):/var/www/html" -w "/var/www/html/" nginx-trafex-celeron` 
 
 ### Copy your new html static website to the current container
  - Current file/folder directory and `docker cp file_to_upload.txt nginx-trafex-celeron:/var/www/html`
