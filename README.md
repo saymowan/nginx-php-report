@@ -15,10 +15,10 @@ Use suggestions:
  - `docker run --rm --name nginx-php-report -p 80:8080 -v "$(pwd):/var/www/html" -w "/var/www/html/" nginx-trafex-celeron` 
 
 ### Copy your new html static website to the current container
- - Current file/folder directory and `docker cp file_to_upload.txt nginx-trafex-celeron:/var/www/html`
+ - Current file/folder directory and `docker cp file_to_upload.txt nginx-php-report:/var/www/html`
 
 ### Easy access the container running
  - Go to your favorite web browser and `http://localhost:8080/index.php`
 
 ### Enter in the running container (prompt sh)
- - `docker exec -it --user root nginx-trafex-celeron sh`
+ - `docker exec -it --user root nginx-php-report sh`
